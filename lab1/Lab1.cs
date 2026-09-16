@@ -39,6 +39,7 @@ namespace Lab1
                 isEllipse = true;
             }
             button1.Region = new Region(path);
+            button1.Text = $"X:{button1.Left} W:{button1.Width}";
         }
     }
 }
